@@ -63,6 +63,7 @@
     line-height: 35px;
     list-style: none;
 }
+
 .precos {
     font-size: 20px;
     text-align: right;
@@ -72,5 +73,19 @@
     float: left;
     position: relative;
     line-height: 35px;
-    
+}
+.lista{
+    /* background-color: azure; */
+    top: 200px;
+    margin: 150px;
+}
+
+.Sobremesas{
+    font-size: 20px;
+    top: 20px;
+    margin: 100px auto;
+    /* background-color: aqua; */
+    height: 40px;
+    width: 100px;
+
 }
