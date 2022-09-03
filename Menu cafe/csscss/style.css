@@ -15,7 +15,7 @@
     /*para cima para baixo*/
     width: 700px;
     line-height: 30px;
-    height: 800px;
+    height: 900px;
 
 }
 
@@ -53,6 +53,7 @@
 }
 
 .nomes {
+    padding-left: 10px;
     font-size: 20px;
     margin: auto 15px;
     text-align: left;
@@ -65,8 +66,9 @@
 }
 
 .precos {
+    padding-right: 20px;
     font-size: 20px;
-    text-align: right;
+    text-align: center;
     margin: auto;
     top: 31px;
     width: 250px;
@@ -74,18 +76,70 @@
     position: relative;
     line-height: 35px;
 }
-.lista{
+
+.lista {
     /* background-color: azure; */
     top: 200px;
     margin: 150px;
 }
 
-.Sobremesas{
+.Sobremesas {
     font-size: 20px;
     top: 20px;
     margin: 100px auto;
-    /* background-color: aqua; */
     height: 40px;
     width: 100px;
+}
 
+.Sobremesas img {
+    max-width: 50px;
+    max-height: 130px;
+    border-radius: 10px;
+}
+
+.sequencia {
+
+    padding-left: 20px;
+    position: absolute;
+    top: 620px;
+}
+
+.nome {
+    line-height: 35px;
+    font-size: 20px;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    text-align: left;
+    list-style: none;
+
+}
+
+.sequencias {
+    width: 300px;
+    height: 150px;
+    margin: 0px 450px;
+    position: absolute;
+    top: 0px;
+    float: right;
+}
+
+.preco {
+    width: 300px;
+    height: 150px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px 50px;
+    width: 250px;
+    float: right;
+    position: relative;
+    line-height: 35px;
+}
+
+.linhas {
+    border-top: 5px solid #850b09;
+    margin: 40px 35px;
+    left: 0px;
+    position: relative;
 }
